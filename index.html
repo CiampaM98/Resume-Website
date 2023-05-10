@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Faster+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700">
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/intro.js"></script>
+    <script type="text/javascript" src="js/timeline.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
+    <script type="text/javascript" src="js/generic.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Michael Ciampa</title>
+</head>
+
+<body>
+    <!-- Navigation Buttons -->
+    <div class="navigation-top" id="top">
+        <p class="navigation-top__time" id="time"></p>
+        <a href="https://www.linkedin.com/in/michael-ciampa-b079a51a6/" target="_blank" class="navigation-top__link">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+        <a href="https://github.com/CiampaM98" target="_blank" class="navigation-top__link">
+        <i class="fa fa-github" aria-hidden="true"></i>Github</a>
+        <a href="#" onClick="window.open('/ResumeCiampaM.pdf')" class="navigation-top__link">
+        <i class="fa fa-file-text-o" aria-hidden="true"></i>Resume</a>
+    </div>
+
+    <!-- Background -->
+    <div id="stars1"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
+    <!-- Mobile Navigation Buttons -->
+
+    <!-- Header -->
+    <main>
+        <header class="header">
+            <div class="intro">
+                <h1 class="intro__heading-primary">
+                    Michael Ciampa
+                </h1>
+                <p class="intro__paragraph">
+                    Honours Business Information Systems, Minor in Computer Science @ Brock University (2024)
+                    <br/>
+                    Programmer ~ Dungeon Master ~ Artist ~ Weightlifter
+                </p>
+                <div class="btn">
+                    <a href="#timeline" class="btn__timeline">Check out my projects!</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Timeline -->
+        <div class="timeline__intro">
+            <h1 class="heading-primary">
+                Projects
+            </h1>
+        </div>
+        <section class="timeline" id="timeline">
+            <div>
+                <div class="timeline__start">
+                    &#9673;
+                </div>
+                <ul>
+                    <li class="list-element">
+                        <div class="list-element__container">
+                            <h3 class="list-element__title">VizSort</h3>
+                            <a href="https://fljiang.github.io/vizsort/" target="_blank">
+                                <img class="list-element__image" src="img/vizsort.png">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list-element">
+                        <div class="list-element__container">
+                            <h3 class="list-element__title">Six Corners</h3>
+                            <a href="https://fljiang.github.io/six-corners" target="_blank">
+                                <img class="list-element__image" src="img/six_corners.png">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list-element">
+                        <div class="list-element__container">
+                            <h3 class="list-element__title">Art Supply Scraper</h3>
+                            <a href="https://fljiang.github.io/art-supply-scraper/" target="_blank">
+                                <img class="list-element__image" src="img/art_supply_scraper.png">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list-element">
+                        <div class="list-element__container">
+                            <h3 class="list-element__title">3 Little Pigs</h3>
+                            <a href="https://github.com/fljiang/3LittlePigs" target="_blank">
+                                <img class="list-element__image" src="img/three_little_pigs.png">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list-element">
+                        <div class="list-element__container">
+                            <h3 class="list-element__title">NetworkVis</h3>
+                            <a href="https://fljiang.github.io/network-vis" target="_blank">
+                                <img class="list-element__image" src="img/network_vis.png">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Flex Grid -->
+        <div>
+            <h1 class="flexgrid__heading-primary heading-primary">
+                Miniature Builds & Paintings
+            </h1>
+        </div>
+        <section class="flexgrid" id="projects">
+            <div class="flexgrid__container">
+                <div class="flexgrid__container-row">
+                    <div>
+                        <img class="flexgrid__container-image flexgrid__container-image_one" src="img/1.jpg">
+                    </div>
+                    <div>
+                        <img class="flexgrid__container-image flexgrid__container-image_three" src="img/2.jpg">
+                    </div>
+                </div>
+                <div class="flexgrid__container-row">
+                    <div>
+                        <img class="flexgrid__container-image flexgrid__container-image_three" src="img/3.jpg">
+                    </div>
+                    <div>
+                        <img class="flexgrid__container-image flexgrid__container-image_one" src="img/4.jpg">
+                    </div>
+                </div>
+                <div class="flexgrid__container-row">
+                    <div>
+                        <img class="flexgrid__container-image flexgrid__container-image_one" src="img/5.jpg">
+                    </div>
+                    <div>
+                        <img class="flexgrid__container-image flexgrid__container-image_three" src="img/6.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

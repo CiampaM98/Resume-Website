@@ -1,0 +1,8 @@
+// Parallax stars
+@function stars-boxshadow($number) {
+    $value: '#{random(2000)}px #{random(50000)}px 1px #fff';
+    @for $index from 1 through $number {
+        $value: '#{$value}, #{random(2000)}px #{random(50000)}px 1px #FFF';
+    }
+    @return unquote($value);
+}

@@ -1,0 +1,19 @@
+// Background for header
+.header {
+    font-family: 'Amatic SC', cursive;
+    height: 100vh;
+    min-height: 62rem;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    @include media-o(812px, landscape) {
+        min-height: 90rem;
+    }
+    @include media(700px) {
+        min-height: 80rem;
+    }
+}
+
+
+
+
